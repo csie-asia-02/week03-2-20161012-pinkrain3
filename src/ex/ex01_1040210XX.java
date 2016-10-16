@@ -13,7 +13,7 @@ public class ex01_1040210XX {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in) ;
 		int a, b ;
-		System.out.print("請輸入一串數字 : ");
+		System.out.print("請輸入要從幾加到幾 : ");
 		a = scn.nextInt();
 		b = scn.nextInt();
 		int i = a , sum = 0 ;
@@ -25,4 +25,3 @@ public class ex01_1040210XX {
 	}
 	
 }
-
