@@ -1,14 +1,32 @@
 package hw;
+
+import java.util.Scanner;
+
 /*
- * Topic: 電話公司的計費方式是 600分鐘以下每分鐘0.5元；	600~1200分鐘電話費以9折計算；1200分鐘以上電話費以79折計算，讓使用者輸入單月使用分時間(分鐘)，算出電話費(元)
+ * Topic: �閰勗����祥�撘 600���誑銝����0.5����	600~1200���閰梯祥隞�9������1200���誑銝閰梯祥隞�79������蝙��撓����蝙������(����)嚗��閰梯祥(���)
  * Date: 2016/10/12
- * Author: 1040210XX 周永振老師
+ * Author: 1040210XX �瘞豢�葦
  */
 public class hw01_1040210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in) ;
+		System.out.println("請輸入單月使用時間(/分)：");
+		int min = scn.nextInt();
+		float a,b,c;
+		float a1 = (float) (min *0.5);
+		float b1 = (float) (min*0.9);
+		float c1 = (float) (min*0.79);
+		if(min <600){
+			if(min >=600 && min <1200)
+			System.out.println("此月的總電話費為："+ a1);
+		}
+		if(min > 1200){
+			System.out.println("此月的總電話費為："+ b1);
+		}else{
+			System.out.println("此月的總電話費為："+ c1);
+		}
 	}
 
 }
