@@ -5,7 +5,7 @@
  * y = x^3+3*x-3			若 -1 <= x <= 1
  * y = 2*x+3				若 x > 1
  * Date: 2016/10/12
- * Author: 1040210XX 周永振老師
+ * Author: 105021086 曾瀅謜
  */
 
 import java.util.Scanner;

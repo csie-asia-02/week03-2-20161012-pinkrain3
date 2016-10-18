@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * Topic: 霈蝙��撓�銝�甇���n嚗���1*(1+1) + 2*(2+1) + 3*(3+1) + �� + n*(n+1)銝西撓�蝯��
  * Date: 2016/10/12
- * Author: 1040210XX �瘞豢�葦
+ * Author: 105021086 曾瀅謜
  */
 public class hw04_1040210XX {
 
