@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * Topic: 輸入一正整數，判斷其奇偶數
  * Date: 2016/10/12
- * Author: 1040210XX 周永振老師
+ * Author: 105021086 曾瀅謜
  */
 
 public class ex02_1040210XX {
